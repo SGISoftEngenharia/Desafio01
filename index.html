@@ -46,11 +46,12 @@
     <div class="formulario">
 
         <p id="titulo-formulario">Conheça mais sobre nossos serviços:</p>
-        <form action="#">
+        <form action="https://api.sheetmonkey.io/form/im7ofpMGzCgrLKJ1JtUrjx" method="post">
            
-            <input type="text" id="name" name="name" placeholder="Nome" ><br><br>
+            <input type="text" id="name" name="name" placeholder="Nome" required ><br><br>
            
-            <input type="text" id="email" name="email" placeholder="E-mail" ><br><br>
+            <input type="email" id="email" name="email" placeholder="E-mail"  required>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /><br><br>
             <button id="button" class="button" type="submit" value="Submit">Fale Conosco</button>
            
           </form> 
